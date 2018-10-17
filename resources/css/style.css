@@ -61,5 +61,22 @@ a {
 .mission.image-content .span {
   background-color: black;
   height: 150px;
+}
 
+.tea-choices {
+  width: 1000px;
+  display: flex;
+}
+
+.image-content {
+  display: flex;
+}
+
+.image-content img {
+  height: 200px;
+  width: 300px;
+}
+
+.text-content {
+  top: 10px;
 }
