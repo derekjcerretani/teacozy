@@ -7,6 +7,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  width: 100%;
 }
 
 /* Header */
@@ -20,6 +21,7 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   background-color: black;
+  top: 0px;
 }
 
 .logo {
@@ -48,35 +50,52 @@ a {
 
 /* Mission Section */
 
-.mission.image-content {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  width: 1200px;
-  height: 700px;
-  margin: 0 60px;
+.mission {
+  width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.mission.image-content {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  top: 60px;
 }
 
 .mission.image-content .span {
+  width: 1200px;
   background-color: black;
-  height: 150px;
+  height: 140px;
+  text-align: center;
+}
+
+.month{
+  width: 1000px;
+  text-align: center;
 }
 
 .tea-choices {
   width: 1000px;
+  margin: 0 135px;
   display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-flow: wrap;
 }
 
-.image-content {
-  display: flex;
-}
+/* .image-content {
+  flex-grow: 2;
+  flex-shrink: 2;
+} */
 
 .image-content img {
   height: 200px;
   width: 300px;
 }
 
-.text-content {
+span h4 {
   top: 10px;
 }
