@@ -133,3 +133,17 @@ a {
   flex-direction: column;
   justify-content: space-around;
 }
+
+/* Footer */
+
+.footer {
+  position: relative;
+  top: 200px;
+  height: 200px;
+}
+
+.copyright {
+  position: relative;
+  margin: 200px 0px 0px 20px;
+  text-align: left;
+}
