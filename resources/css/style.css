@@ -72,30 +72,27 @@ a {
   text-align: center;
 }
 
-.month{
+/* Tea of the Month Section */
+
+.teaOfmonth {
+  width: 100%;
+  position: relative;
+  top: 60px;
+}
+
+.title span{
   width: 1000px;
-  text-align: center;
 }
 
 .tea-choices {
-  width: 1000px;
   margin: 0 135px;
   display: flex;
   justify-content: space-around;
-  align-content: center;
+  align-items: center;
   flex-flow: wrap;
 }
-
-/* .image-content {
-  flex-grow: 2;
-  flex-shrink: 2;
-} */
 
 .image-content img {
   height: 200px;
   width: 300px;
-}
-
-span h4 {
-  top: 10px;
 }
