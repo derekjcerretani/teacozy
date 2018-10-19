@@ -76,16 +76,22 @@ a {
 
 .teaOfmonth {
   width: 100%;
+  height: 700px;
   position: relative;
   top: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.title span{
+.teas {
   width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .tea-choices {
-  margin: 0 135px;
   display: flex;
   justify-content: space-around;
   align-items: center;
